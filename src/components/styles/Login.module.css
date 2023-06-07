@@ -1,0 +1,102 @@
+.loginText {
+  color: #cad5e2;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+.login {
+  margin-top: 20px;
+}
+.loginEmail {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.loginEmail label {
+  color: #cad5e2;
+  font-size: 14px;
+  font-weight: bold;
+}
+.loginEmail input {
+  font-size: 12px;
+  width: 100%;
+  padding: 5px;
+  border-radius: 6px;
+  background: transparent;
+  outline: none;
+  border: 1px solid #c1a7b0;
+  color: #cad5e2;
+}
+.loginEmail input:focus {
+  border: 1px solid #db1a5a;
+}
+.loginPassword {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+.loginPassword label {
+  color: #cad5e2;
+  font-size: 14px;
+  font-weight: bold;
+}
+.loginPassword input {
+  font-size: 12px;
+  width: 100%;
+  padding: 5px;
+  border-radius: 6px;
+  background: transparent;
+  outline: none;
+  border: 1px solid #c1a7b0;
+  color: #cad5e2;
+}
+.loginPassword input:focus {
+  border: 1px solid #db1a5a;
+}
+
+.loginSignup {
+  margin-top: 15px;
+  color: #cad5e2;
+}
+.loginSignup a {
+  display: flex;
+}
+.loginSignup a p {
+  color: #db1a5a;
+  margin-left: 5px;
+}
+.loginBtn {
+  background: #db1a5a;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  border-radius: 6px;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #cad5e2;
+}
+.loginCover {
+  padding: 20px 20px;
+  background-color: #1f2022;
+  box-shadow: 0px -1px 6px 2px #db1a5a;
+  margin: 30px 10px;
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .loginOverall {
+    margin: 30px 150px;
+  }
+}
+@media screen and (min-width: 1023px) {
+  .loginOverall {
+    display: flex;
+    justify-content: center;
+  }
+  .loginCover {
+    width: 50%;
+  }
+}
