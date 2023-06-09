@@ -6,6 +6,15 @@
     padding: 10px;
     justify-content: space-between;
   }
+  .appwriteSocials {
+    padding-top: 15px;
+  }
+  .awards {
+    margin: 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
   .btn {
     background-color: #db1a5a;
     padding: 5px 10px;
@@ -594,7 +603,6 @@
   }
 }
 
-
 @media screen and (min-width: 1250px) and (max-width: 1499px) {
   .header {
     background-color: #242b2e;
@@ -602,6 +610,15 @@
     display: flex;
     padding: 10px;
     justify-content: space-between;
+  }
+  .appwriteSocials {
+    padding-top: 15px;
+  }
+  .awards {
+    margin: 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
   }
   .btn {
     background-color: #db1a5a;
@@ -1203,6 +1220,9 @@
     border-radius: 10px;
     color: #fff;
   }
+  .appwriteSocials {
+    padding-top: 15px;
+  }
   .caption {
     background-color: #242b2e;
     padding: 10px 10px;
@@ -1218,7 +1238,7 @@
     font-weight: bold;
   }
   .features {
-    margin: 30px 0px;
+    margin: 20px 0px;
     position: relative;
   }
   .featuresSwiper {
@@ -1303,11 +1323,10 @@
     margin: 10px;
   }
   .TweetGeneral {
-    padding: 20px 20px;
+    padding: 10px;
     background-color: #1f2022;
     box-shadow: -3px 1px 14px 3px #161616;
     position: relative;
-    margin: 20px 10px 20px 10px;
   }
   .TweetGeneral1Cover {
     padding: 10px;
@@ -1359,13 +1378,20 @@
   }
   .TweetGeneralFlex1Flex {
     display: flex;
-    gap: 25px;
-    flex-wrap: wrap;
+    gap: 20px;
+    overflow: auto;
+    padding: 15px;
   }
   .TweetGeneral1Top {
     display: flex;
     align-items: center;
     gap: 5px;
+  }
+  .awards {
+    margin: 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
   }
   .TweetGeneral1Top img {
     width: 35px;
@@ -1799,6 +1825,15 @@
     display: flex;
     padding: 15px;
     justify-content: space-between;
+  }
+  .appwriteSocials {
+    padding-top: 15px;
+  }
+  .awards {
+    margin: 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
   }
   .btn {
     background-color: #db1a5a;
@@ -2403,6 +2438,15 @@
     padding: 10px;
     justify-content: space-between;
   }
+  .appwriteSocials {
+    padding-top: 15px;
+  }
+  .awards {
+    margin: 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
   .btn {
     background-color: #db1a5a;
     padding: 5px 10px;
@@ -2434,7 +2478,7 @@
     color: #db1a5a;
     text-transform: uppercase;
   }
-  .overall {    
+  .overall {
     margin-left: 150px;
     margin-right: 150px;
   }

@@ -55,6 +55,10 @@ function Profile() {
 
   const swiperRef = React.useRef(null);
 
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
+
   return (
     <div>
       {userDetails ? (
@@ -115,6 +119,17 @@ function Profile() {
                   coding languages you adore.
                 </p>
               </div>
+            </div>
+
+            <div className={classes.awards}>
+              <img
+                src="https://appwrite.io/images-ee/console/product-hunt-golden-kitty-dark-feather.svg"
+                alt="profile"
+              />
+              <img
+                src="https://appwrite.io/images-ee/console/product-hunt-dark-feather.svg"
+                alt="profile"
+              />
             </div>
 
             <div className={classes.features}>
@@ -266,6 +281,7 @@ function Profile() {
                       merged 100 💯.
                     </h3>
                   </div>
+
                   <div className={classes.TweetGeneral1Cover2}>
                     <div className={classes.TweetGeneral1}>
                       <div className={classes.TweetGeneral1Top}>
@@ -294,6 +310,7 @@ function Profile() {
                       focus on the real business logic.
                     </h3>
                   </div>
+
                   <div className={classes.TweetGeneral1Cover3}>
                     <div className={classes.TweetGeneral1}>
                       <div className={classes.TweetGeneral1Top}>
@@ -622,7 +639,12 @@ function Profile() {
             </div>
             <div className={classes.copyright}>
               <p>Copyright © 2023 Appwrite • Version 0.30.13.504</p>
-              <div className={classes.copyrightArrow}>
+              <div
+                onClick={() => {
+                  window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+                }}
+                className={classes.copyrightArrow}
+              >
                 <h2>
                   <FaArrowUp />
                 </h2>
