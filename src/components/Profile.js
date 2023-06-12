@@ -655,11 +655,11 @@ function Profile() {
       ) : (
         <p className={classes.customloadercover}>
           <div className={classes.customloader}></div>
-          <Link to="/">
+          {/* <Link to="/">
             <span className={classes.loaderLogin}>
               Login
             </span>
-          </Link>
+          </Link> */}
         </p>
       )}
     </div>
