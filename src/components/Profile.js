@@ -653,10 +653,10 @@ function Profile() {
           </div>
         </>
       ) : (
-        <p className="mt-4">
-          Please Login To see Profile
+        <p className={classes.customloadercover}>
+          <div className={classes.customloader}></div>
           <Link to="/">
-            <span className="bg-yellow-300 p-2 cursor-pointer text-white rounded-md">
+            <span className={classes.loaderLogin}>
               Login
             </span>
           </Link>

@@ -6,6 +6,39 @@
     padding: 10px;
     justify-content: space-between;
   }
+  .customloadercover {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+  }
+  .customloader {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #db1a5a;
+    -webkit-mask: radial-gradient(
+      circle closest-side at 50% 40%,
+      #0000 94%,
+      #000
+    );
+    transform-origin: 50% 40%;
+    animation: s5 1s infinite linear;
+  }
+  .loaderLogin {
+    background: #db1a5a;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-weight: bold;
+  }
+
+  @keyframes s5 {
+    100% {
+      transform: rotate(1turn);
+    }
+  }
   .appwriteSocials {
     padding-top: 15px;
   }
@@ -611,6 +644,39 @@
     padding: 10px;
     justify-content: space-between;
   }
+  .customloadercover {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+  }
+  .customloader {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #db1a5a;
+    -webkit-mask: radial-gradient(
+      circle closest-side at 50% 40%,
+      #0000 94%,
+      #000
+    );
+    transform-origin: 50% 40%;
+    animation: s5 1s infinite linear;
+  }
+  .loaderLogin {
+    background: #db1a5a;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-weight: bold;
+  }
+
+  @keyframes s5 {
+    100% {
+      transform: rotate(1turn);
+    }
+  }
   .appwriteSocials {
     padding-top: 15px;
   }
@@ -1214,12 +1280,46 @@
     padding: 15px;
     justify-content: space-between;
   }
+  .customloadercover {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+  }
+  .customloader {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #db1a5a;
+    -webkit-mask: radial-gradient(
+      circle closest-side at 50% 40%,
+      #0000 94%,
+      #000
+    );
+    transform-origin: 50% 40%;
+    animation: s5 1s infinite linear;
+  }
+  .loaderLogin {
+    background: #db1a5a;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-weight: bold;
+  }
+
+  @keyframes s5 {
+    100% {
+      transform: rotate(1turn);
+    }
+  }
   .btn {
     background-color: #db1a5a;
     padding: 5px 10px;
     border-radius: 10px;
     color: #fff;
   }
+
   .appwriteSocials {
     padding-top: 15px;
   }
@@ -1825,6 +1925,39 @@
     display: flex;
     padding: 15px;
     justify-content: space-between;
+  }
+  .customloadercover {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+  }
+  .customloader {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #db1a5a;
+    -webkit-mask: radial-gradient(
+      circle closest-side at 50% 40%,
+      #0000 94%,
+      #000
+    );
+    transform-origin: 50% 40%;
+    animation: s5 1s infinite linear;
+  }
+  .loaderLogin {
+    background: #db1a5a;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-weight: bold;
+  }
+
+  @keyframes s5 {
+    100% {
+      transform: rotate(1turn);
+    }
   }
   .appwriteSocials {
     padding-top: 15px;
@@ -2437,6 +2570,39 @@
     display: flex;
     padding: 10px;
     justify-content: space-between;
+  }
+  .customloadercover {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+  }
+  .customloader {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #db1a5a;
+    -webkit-mask: radial-gradient(
+      circle closest-side at 50% 40%,
+      #0000 94%,
+      #000
+    );
+    transform-origin: 50% 40%;
+    animation: s5 1s infinite linear;
+  }
+  .loaderLogin {
+    background: #db1a5a;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-weight: bold;
+  }
+
+  @keyframes s5 {
+    100% {
+      transform: rotate(1turn);
+    }
   }
   .appwriteSocials {
     padding-top: 15px;

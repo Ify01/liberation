@@ -7,7 +7,3 @@ client
   .setProject("6470c080abb74d8ec4b0");
 
 export const account = new Account(client);
-
-
-
-
